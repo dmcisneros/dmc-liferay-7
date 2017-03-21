@@ -1,0 +1,5 @@
+Bundle-Name: dmc-fragment-login-hook
+Bundle-SymbolicName: dmc.fragment.login.hook
+Bundle-Version: 1.2.0
+Fragment-Host: com.liferay.login.web;bundle-version="1.0.5"
+-sources: true

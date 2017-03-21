@@ -1,0 +1,3 @@
+Bundle-Name: dmc-mvc-portlet
+Bundle-SymbolicName: dmc.portlet.mvc
+Bundle-Version: 1.0.0
