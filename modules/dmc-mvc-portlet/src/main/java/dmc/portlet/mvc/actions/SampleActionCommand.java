@@ -41,8 +41,8 @@ public class SampleActionCommand implements MVCActionCommand {
 	public boolean processAction(ActionRequest actionRequest, ActionResponse actionResponse) throws PortletException {
 		_handleActionCommand(actionRequest);
 		// Redirect to custom jsp
-		//actionResponse.setRenderParameter("mvcRenderCommandName", "showDetail");
-		actionResponse.setRenderParameter("mvcPath", "/student_details.jsp");
+		PortalUtil.copyRequestParameters(actionRequest, actionResponse);
+		actionResponse.setRenderParameter("mvcRenderCommandName", "showDetail");
 
 		return true;
 	}
