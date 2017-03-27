@@ -1,0 +1,4 @@
+Bundle-Name: dmc-core-jsp-hook
+Bundle-SymbolicName: dmc.core.jsp.hook
+Bundle-Version: 1.0.0
+-sources: true
