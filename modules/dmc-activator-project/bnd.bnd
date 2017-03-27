@@ -1,0 +1,4 @@
+Bundle-Activator: dmc.activator.DmcActivator
+Bundle-Name: dmc-activator-project
+Bundle-SymbolicName: dmc.activator
+Bundle-Version: 1.0.0
