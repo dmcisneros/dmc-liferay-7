@@ -36,3 +36,7 @@
 <li>Asociar un themelet a un theme: Accedemos al directorio del theme y ejecutamos: gulp extend Nos permitir&aacute; que themelet queremos incluir en ese theme: - Seleccionar: Search globally installed npm modules</li>
 <li>En el theme ejecutar: gulp deploy</li>
 </ol>
+
+Node proxy configurations
+npm config set proxy http://proxy.company.com:8080
+npm config set https-proxy http://proxy.company.com:8080
