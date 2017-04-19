@@ -37,6 +37,6 @@
 <li>En el theme ejecutar: gulp deploy</li>
 </ol>
 
-Node proxy configurations
-npm config set proxy http://proxy.company.com:8080
-npm config set https-proxy http://proxy.company.com:8080
+<p>Node proxy configurations</p>
+<p>npm config set proxy http://proxy.company.com:8080</p>
+<p>npm config set https-proxy http://proxy.company.com:8080</p>
